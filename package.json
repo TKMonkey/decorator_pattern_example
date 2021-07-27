@@ -1,0 +1,21 @@
+{
+  "name": "decorator_pattern",
+  "version": "1.0.0",
+  "description": "Example material for 57Blocks' Decorator Pattern Tech Talk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mE",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.28.5",
+    "@typescript-eslint/parser": "^4.28.5",
+    "eslint": "^7.31.0",
+    "eslint-config-google": "^0.14.0",
+    "prettier": "^2.3.2"
+  }
+}
