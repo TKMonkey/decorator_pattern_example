@@ -1,4 +1,4 @@
-interface IDatabase{
+export interface IDatabase{
     create(data: object): Promise<void>;
 
     read(id: string): Promise<object>;

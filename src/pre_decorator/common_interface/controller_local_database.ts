@@ -1,3 +1,4 @@
+import { IDatabase } from "./i_database";
 export class ControllerWithLocalDatabase{
 
     constructor(private database: IDatabase){}

@@ -1,3 +1,5 @@
+import { IDatabase } from "./i_database";
+
 export class ControllerWithFirebaseDatabase{
     constructor(private database: IDatabase){}
 
