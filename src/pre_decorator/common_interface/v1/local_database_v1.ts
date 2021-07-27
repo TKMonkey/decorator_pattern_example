@@ -1,3 +1,5 @@
+import { IDatabase } from "../i_database";
+
 export class LocalDatabase implements IDatabase{
 
     async create(data: object): Promise<void> {
